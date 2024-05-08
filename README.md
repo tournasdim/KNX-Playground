@@ -29,11 +29,16 @@ To get started with the the examples and projects in this repository, follow the
 
 2. Refer to the individual README files in each code example or project directory for specific instructions and requirements.
 
-3. Explore the examples, modify it, and experiment with different configurations to gain a better understanding of KNX integration and control.
+3. Import the `xxxyyyzzz.knxproj` file into ETS6, experiment with different configurations to gain a better understanding of KNX integration and control.
+   Files starting with KV_ (ie KV_xxxyyy.knxproj) are solely designed to be run on KNX Virtual, the emulation tool to run a project on your computer.
+   KNX Virtual doesn’t require any investment in hardware (such as power supply, USB or IP interface, KNX devices) as you will work with virtual devices, commissioned by ETS.
+   But keep in mind that the demo version of ETS supports for a max of 5 devices to be programmed (virtual or physical devices) . 
+
+KNX Virtual allows you to get acquainted with the KNX technology by setting up a simulated KNX installation, for free. 
 
 ## Contributions
 
-Contributions to this repository are welcome! If you have a simple example, project, or useful resource related to KNX that you would like to share with the community, please follow the guidelines outlined in the CONTRIBUTING.md file.
+Contributions to this repository are welcome! If you have a simple example, project, or useful resource related to KNX that you would like to share with the community.
 
 ## License
 
