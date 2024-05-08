@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GroupAddress-Export xmlns="http://knx.org/xml/ga-export/01">
+  <GroupRange Name="Lighting" RangeStart="2048" RangeEnd="4095">
+    <GroupRange Name="Lighting ON/OFF" RangeStart="2304" RangeEnd="2559">
+      <GroupAddress Name="BedRoom Dimm ON / OFF" Address="1/1/1" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="Dimming Control" RangeStart="2560" RangeEnd="2815">
+      <GroupAddress Name="BedRoom Dim Control" Address="1/2/1" DPTs="DPST-3-7" />
+    </GroupRange>
+    <GroupRange Name="Dimming Feedback" RangeStart="2816" RangeEnd="3071">
+      <GroupAddress Name="BedRoom Dimm Feedback" Address="1/3/1" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="Dimming Feedback Value" RangeStart="3072" RangeEnd="3327">
+      <GroupAddress Name="Bedroom Feedback Dimm Value" Address="1/4/1" DPTs="DPST-5-1" />
+    </GroupRange>
+    <GroupRange Name="Dimming Value" RangeStart="3328" RangeEnd="3583" Description="This Value is used for Visualization Devices">
+      <GroupAddress Name="Bedroom Dim Value" Address="1/5/1" DPTs="DPST-5-1" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="Blind" RangeStart="4096" RangeEnd="6143">
+    <GroupRange Name="Movement" RangeStart="4096" RangeEnd="4351" />
+    <GroupRange Name="Start / Stop" RangeStart="4352" RangeEnd="4607" />
+    <GroupRange Name="Feedback Position" RangeStart="4608" RangeEnd="4863" />
+    <GroupRange Name="Position" RangeStart="4864" RangeEnd="5119" />
+  </GroupRange>
+  <GroupRange Name="Scenes" RangeStart="6144" RangeEnd="8191">
+    <GroupRange Name="Turn All Lights OFF" RangeStart="6144" RangeEnd="6399" />
+    <GroupRange Name="Close All Blinds" RangeStart="6400" RangeEnd="6655" />
+    <GroupRange Name="Open All Blinds" RangeStart="6656" RangeEnd="6911" />
+  </GroupRange>
+  <GroupRange Name="HVAC" RangeStart="10240" RangeEnd="12287">
+    <GroupRange Name="Room / Central " RangeStart="10240" RangeEnd="10495" />
+    <GroupRange Name="Actual" RangeStart="10496" RangeEnd="10751" />
+    <GroupRange Name="Set Point" RangeStart="10752" RangeEnd="11007" />
+    <GroupRange Name="Variable" RangeStart="11008" RangeEnd="11263" />
+    <GroupRange Name="Operation Mode" RangeStart="11264" RangeEnd="11519" />
+  </GroupRange>
+</GroupAddress-Export>
